@@ -1,0 +1,11 @@
+POST http://localhost:8080/publish
+Content-Type: application/json
+
+{
+"userId": "10000",
+"taskName":"task2",
+"taskDescription":"test",
+"taskId":"10211",
+"datetime":"1980-01-18",
+"status":"IN_PROGRESS"
+}
