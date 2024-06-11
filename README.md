@@ -5,6 +5,7 @@ The inception of this project came about as I researched various topics regardin
 Currently, I am working on fleshing out what a task manager does. Not to be confused with a job scheduler, this will mimic the behaviour of users that manage projects – Project Manager would have been a suitable choice, but I'd have to explain the nuance between that and the role. I will leave it as is for all intents and purposes because I'm probably bad at naming.
 
 The technologies that I've chosen to use as of (6/10) are:
+   
     - Java 17
       - Spring Boot
     - H2 RDBMS
@@ -15,7 +16,7 @@ Phase 1: Create a task manager with basic functionality for a single user.
   - User can retrieve all tasks with no differentiation.
   - User can edit a task.
   - Data is stored in embedded H2 DB and loaded upon boot with .sql files.
-  - TDD include unit testing for helper functions and Spring Boot components.
+  - TDD includes unit testing for helper functions and Spring Boot components.
 
 Post-Phase 1 / Pre-Phase 2:
   - Sanitize and validate user input
@@ -24,6 +25,11 @@ Post-Phase 1 / Pre-Phase 2:
 
 Phase 2:
   - Add basic performance metrics
+  - Different models of tasks can be resolved (obeying the SOLID)
   - Multiple users can use the database with LPU access.
+  - Users can form groups that grant access to shared tasks.
+ 
+Phase 3: TBD
+
 
 I hope to get this to a stage where I can test the performance of different distributed scenarios and test some network concepts. 
