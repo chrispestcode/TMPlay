@@ -1,8 +1,10 @@
 # TMPlay
 
+The core focus of this project is to be a Task Management Application.
+
 The inception of this project came about as I researched various topics regarding system design. I gathered conceptual knowledge from various domains, such as networking, distributed systems, etc., but lacked technical application. Rather than (re)build a project for each concept I wanted to implement and measure, I decided to create this small project that will provide a foundation for simulating different scenarios. I should be able to fork from here whenever I need a clean branch. 
 
-Currently, I am working on fleshing out what a task manager does. Not to be confused with a job scheduler, this will mimic the behaviour of users that manage projects – Project Manager would have been a suitable choice, but I'd have to explain the nuance between that and the role. I will leave it as is for all intents and purposes because I'm probably bad at naming.
+Currently, I am working on fleshing out what a task manager does. Not to be confused with a job scheduler, this will mimic the behaviour of users that manage projects – Project Manager would have been a suitable choice, but I'd have to explain the nuance between that and the role. I will leave it as is for all intents and purposes.
 
 The technologies that I've chosen to use as of (6/10) are:
    
